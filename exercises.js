@@ -330,7 +330,11 @@ console.log(shoeSize(9));
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  
+ function allCaps(str) {
+ 	return str.toUpperCase();
+ }
 
+console.log(allCaps('hello hello'));
 
 /*
  * #16
@@ -340,6 +344,13 @@ console.log(shoeSize(9));
  * Console.log your result.
 */
 
+function oneCap(str) {
+	const upper = str.charAt(0).toUpperCase();
+	const lower = str;
+	return upper + lower;
+}
+
+console.log(oneCap('hello hello'));
 
 
 /*
